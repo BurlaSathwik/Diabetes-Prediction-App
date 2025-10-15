@@ -1,16 +1,38 @@
-# React + Vite
+# 🩺 Diabetes Prediction Web Application  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A **full-stack machine learning web application** that predicts the likelihood of diabetes based on patient health data. Built using **React.js** for the frontend and **FastAPI** for the backend, this project demonstrates how machine learning can be integrated into a modern web app with a clean, responsive interface.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features  
+- 🔍 **Accurate Predictions:** ML classification model achieving ~82% accuracy.  
+- 🧠 **Integrated ML Pipeline:** Built with Scikit-learn, Pandas, and NumPy for preprocessing and prediction.  
+- 🌐 **Full-Stack Architecture:** React (frontend) + FastAPI (backend) with RESTful APIs.  
+- 📊 **Responsive UI:** Designed with Bootstrap and React Router for smooth navigation.  
+- 🔒 **Secure API Calls:** Implements CORS and REST best practices.  
+- ⚙️ **End-to-End SDLC Workflow:** Includes model training, API development, and deployment setup.  
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🧩 Tech Stack  
+**Frontend:** React.js, Bootstrap, React Router, Axios  
+**Backend:** FastAPI, Python  
+**Machine Learning:** Scikit-learn, Pandas, NumPy, Joblib  
+**Tools:** Git, VS Code, Chrome DevTools  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧠 Model Overview  
+- **Algorithm Used:** Classification (Logistic Regression / Random Forest)  
+- **Dataset:** Public diabetes dataset  
+- **Accuracy:** ~82%  
+- **Preprocessing:** Feature selection, normalization, and visualizations  
+
+---
+
+## ⚙️ Installation & Setup  
+
+### 🧭 1. Clone the Repository
+```bash
+git clone https://github.com/BurlaSathwik/Diabetes-Prediction-App.git
+cd Diabetes-Prediction-App
